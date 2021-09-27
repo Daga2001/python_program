@@ -20,11 +20,11 @@ survivorsClass3 = 0;
 #Body of algorithm
 for r in titanic:
     average += r[4];
-    if r[2] == 1:
+    if r[2] == 1 and r[1] == 1:
         survivorsClass1 += 1
-    if r[2] == 2:
+    if r[2] == 2 and r[1] == 1:
         survivorsClass2 += 1
-    if r[2] == 3:
+    if r[2] == 3 and r[1] == 1:
         survivorsClass3 += 1
 
 
